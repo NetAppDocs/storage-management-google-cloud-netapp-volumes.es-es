@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: task-manage-volumes.html 
+keywords: google cloud netapp volumes, view volumes 
+summary: Después de configurar su sistema, podrá ver sus volúmenes de Google Cloud NetApp . 
+---
+= Administrar volúmenes existentes
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Puede ver sus volúmenes existentes y cualquier acción que haya realizado en ellos.
+
+*Rol de consola de NetApp requerido* Rol de administrador de organización, administrador de carpeta o proyecto, o administrador de Google Cloud NetApp Volumes . https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Obtenga información sobre los roles de acceso a la consola de NetApp para todos los servicios"^] .
+
+
+
+== Ver un volumen
+
+Vea los detalles de sus volúmenes, como su nombre, cantidad, región, capacidad, capacidad utilizada y grupo de almacenamiento.
+
+.Pasos
+. Haga clic en *Ingresar al sistema* para abrir el sistema.
+. Para ver un volumen específico en la tabla, seleccioneimage:icon_search.png["Un icono con tres puntos."] e ingrese el nombre del volumen.
+. Para ver las etiquetas asociadas a un volumen, en la columna *Etiquetas*, seleccione *Ver*.
+
+
+
+
+== Ver el registro de auditoría
+
+Puede ver todas las acciones realizadas en los volúmenes en la línea de tiempo.
+
+.Pasos
+. En la parte superior derecha, selecciona *Configuración* y luego *Línea de tiempo*.
+
+
+.Resultado
+En la tabla *Registros de auditoría*, puede ver cualquier acción realizada en sus volúmenes.

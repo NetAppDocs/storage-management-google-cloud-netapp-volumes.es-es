@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
+summary: Conozca las novedades sobre la compatibilidad de Google Cloud NetApp Volumes en NetApp Console. 
+---
+= Qué hay de nuevo
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Conozca las novedades sobre la compatibilidad de Google Cloud NetApp Volumes en NetApp Console.
+
+
+
+== 6 de octubre de 2025
+
+
+
+=== BlueXP ahora es NetApp Console
+
+La consola NetApp , construida sobre la base BlueXP mejorada y reestructurada, proporciona una gestión centralizada del almacenamiento NetApp y de los servicios de datos NetApp en entornos locales y en la nube a nivel empresarial, brindando información en tiempo real, flujos de trabajo más rápidos y una administración simplificada, que es altamente segura y compatible.
+
+Para obtener más detalles sobre lo que ha cambiado, consulte lalink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notas de la versión de la consola de NetApp"] .
+
+
+
+== 21 de julio de 2025
+
+
+
+=== Compatibilidad con Google Cloud NetApp Volumes en BlueXP
+
+Ahora puedes administrar los Google Cloud NetApp Volumes directamente desde BlueXP:
+
+* Añade un entorno de trabajo.
+* Ver volúmenes.
+* Eliminar entornos de trabajo.
+

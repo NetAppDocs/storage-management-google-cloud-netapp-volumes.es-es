@@ -1,0 +1,14 @@
+= Compatibilidad con Google Cloud NetApp Volumes en BlueXP
+:allow-uri-read: 
+
+
+
+
+=== Compatibilidad con Google Cloud NetApp Volumes en BlueXP
+
+Ahora puedes administrar los Google Cloud NetApp Volumes directamente desde BlueXP:
+
+* Añade un entorno de trabajo.
+* Ver volúmenes.
+* Eliminar entornos de trabajo.
+
