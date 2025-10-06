@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-set-up-gcnv.html 
 keywords: setup, set up, api, service account, requirements, permissions, google cloud netapp volumes, gcnv, bluexp. netapp console 
-summary: La consola de NetApp necesita acceso a la API de Google Cloud NetApp Volumes y los permisos adecuados a través de una cuenta de servicio de Google Cloud. 
+summary: La NetApp Console necesita acceso a la API de Google Cloud NetApp Volumes y los permisos adecuados a través de una cuenta de servicio de Google Cloud. 
 ---
 = Configurar Google Cloud NetApp Volumes
 :hardbreaks:
@@ -14,13 +14,13 @@ summary: La consola de NetApp necesita acceso a la API de Google Cloud NetApp Vo
 
 
 [role="lead"]
-La consola de NetApp necesita los permisos adecuados a través de una cuenta de servicio de Google Cloud.
+La NetApp Console necesita los permisos adecuados a través de una cuenta de servicio de Google Cloud.
 
 
 
 == Configurar una cuenta de servicio
 
-Complete las siguientes tareas para que la consola de NetApp pueda acceder a su proyecto de Google Cloud:
+Complete las siguientes tareas para que la NetApp Console pueda acceder a su proyecto de Google Cloud:
 
 * Si aún no tiene una cuenta de servicio existente, cree una nueva.
 * Agregue el miembro de la cuenta de servicio a su proyecto y asígnele roles específicos (permisos).
@@ -58,7 +58,7 @@ Por ejemplo: \user1-service-account-gcnv@project1.iam.gserviceaccount.com
 . Haga clic en el nombre de la cuenta de servicio y, a continuación, desde la página _Detalles de la cuenta de servicio_, haga clic en *Agregar clave* y luego en *Crear nueva clave*.
 . Seleccione *JSON* como tipo de clave y haga clic en *Crear*.
 +
-Al hacer clic en *Crear*, se generará su nuevo par de claves pública/privada y se descargará en su sistema.  Sirve como la única copia de la clave privada.  Guarde este archivo de forma segura porque se puede utilizar para autenticarse como su cuenta de servicio.
+Al hacer clic en *Crear*, se generará su nuevo par de claves pública/privada y se descargará en su sistema.  Sirve como la única copia de la clave privada.  Guarde este archivo de forma segura porque puede usarse para autenticarse como su cuenta de servicio.
 
 
 

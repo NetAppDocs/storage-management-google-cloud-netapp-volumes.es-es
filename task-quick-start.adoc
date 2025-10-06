@@ -22,4 +22,4 @@ Desde Google, crea una cuenta de servicio.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Dos"] link:task-create-working-env.html["Agregar un sistema"]
 [role="quick-margin-para"]
-Desde la consola de NetApp , haga clic en *Agregar sistema*, luego en *Google Cloud Platform*, luego en * Google Cloud NetApp Volumes* y luego en *Descubrir*.  Proporcione los detalles sobre la cuenta de servicio y el proyecto de Google Cloud.
+Desde la NetApp Console, haga clic en *Agregar sistema*, luego en *Google Cloud Platform*, luego en * Google Cloud NetApp Volumes* y luego en *Descubrir*.  Proporcione los detalles sobre la cuenta de servicio y el proyecto de Google Cloud.

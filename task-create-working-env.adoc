@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-create-working-env.html 
 keywords: google cloud netapp volumes, google cloud, netapp cloud volumes, create netapp cloud volumes, discover netapp cloud volumes service for gcnv, cloud volumes service subscription, discover cloud volumes service subscription, discover region, allowed clients, netapp console 
-summary: Agregue un sistema NetApp Volumes para Google Cloud en la consola de NetApp para ver y administrar volúmenes. 
+summary: Agregue un sistema NetApp Volumes para Google Cloud en la NetApp Console para ver y administrar volúmenes. 
 ---
-= Agregar un sistema Google Cloud NetApp Volumes
+= Agregar un sistema de Google Cloud NetApp Volumes
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Agregue un sistema NetApp Volumes para Google Cloud en la consola de Ne
 
 
 [role="lead"]
-Después de configurar una cuenta de servicio, agregue un sistema Google Cloud NetApp Volumes en la consola de NetApp para poder ver sus instancias de Google Cloud NetApp Volumes .
+Después de configurar una cuenta de servicio, agregue un sistema Google Cloud NetApp Volumes en la NetApp Console para poder ver sus instancias de Google Cloud NetApp Volumes .
 
 Los volúmenes de nube para esta suscripción se muestran en el sistema.
 
@@ -29,7 +29,7 @@ Debe tener la siguiente información disponible al agregar una suscripción para
 
 
 .Pasos
-. Desde el menú de la consola de NetApp , seleccione *Almacenamiento* y luego *Administración*.
+. Desde el menú de la NetApp Console , seleccione *Almacenamiento* y luego *Administración*.
 . En la página Sistemas, seleccione *Agregar sistema* y seleccione *Google Cloud Platform*.
 . Junto a * Google Cloud NetApp Volumes*, seleccione *Descubrir*.
 . Proporcione información sobre su suscripción a NetApp Volumes:

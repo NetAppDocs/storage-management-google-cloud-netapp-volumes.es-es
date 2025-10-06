@@ -32,9 +32,9 @@ NetApp Volumes ayuda a acelerar los tiempos de implementación, administrar sus 
 
 == Costo
 
-Los volúmenes creados por Google Cloud NetApp Volumes se cargan a su suscripción al servicio, no a través de la consola de NetApp .
+Los volúmenes creados por Google Cloud NetApp Volumes se cargan a su suscripción al servicio, no a través de la NetApp Console.
 
-No hay ningún cargo por descubrir una región o un volumen de Google Cloud NetApp Volumes desde la consola de NetApp .
+No hay ningún cargo para descubrir una región o un volumen de Google Cloud NetApp Volumes desde la NetApp Console.
 
 
 
@@ -57,5 +57,5 @@ Para problemas técnicos asociados con sus volúmenes en la nube, puede crear un
 == Enlaces relacionados
 
 * https://cloud.google.com/netapp/volumes/docs/discover/overview["Documentación de Google Cloud NetApp Volumes"^]
-* https://docs.netapp.com/us-en/data-services-copy-sync/index.html["Documentación de copia y sincronización de la consola de NetApp"^]
+* https://docs.netapp.com/us-en/data-services-copy-sync/index.html["Documentación de copia y sincronización de la NetApp Console"^]
 
