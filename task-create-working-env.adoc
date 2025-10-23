@@ -40,9 +40,6 @@ Debe tener la siguiente información disponible al agregar una suscripción para
 .. Seleccione el nombre de su proyecto de Google Cloud.
 .. Seleccione la región donde desea crear el sistema.  La región debe ser una de las regiones compatibles con Google Cloud NetApp Volumes.
 .. Seleccione *Descubrir*.
-+
-image:screenshot_create_environment.png["Una captura de pantalla de cómo agregar credenciales para una suscripción a Google Cloud NetApp Volumes ."]
-
 
 
 
