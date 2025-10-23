@@ -21,7 +21,7 @@ NetApp Volumes ayuda a acelerar los tiempos de implementación, administrar sus 
 
 NOTE: Para comenzar a trabajar con Google Cloud NetApp Volumes, debe tener los permisos adecuados y el rol de administrador de Google Cloud NetApp Volumes o de visor de Google Cloud NetApp asignado. https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Obtenga información sobre los roles de acceso a la NetApp Console para todos los servicios"^].
 
-+ image:role_gcnv.png["Una captura de pantalla de la función Google Cloud NetApp Volumes ."]
+image:role_gcnv.png["Una captura de pantalla de la función Google Cloud NetApp Volumes ."]
 
 
 
