@@ -24,7 +24,7 @@ NOTE: Si tiene suscripciones y volúmenes en varios proyectos de Google Cloud, d
 .Antes de empezar
 Debe tener la siguiente información disponible al agregar una suscripción para cada proyecto:
 
-* Credenciales de la cuenta de servicio (clave privada JSON que descargaste)
+* Dirección de correo electrónico de la cuenta de servicio de Google
 * Nombre del proyecto
 
 
@@ -35,10 +35,10 @@ Debe tener la siguiente información disponible al agregar una suscripción para
 . Proporcione información sobre su suscripción a NetApp Volumes:
 +
 .. Introduzca el nombre del sistema que desea utilizar.
-.. Copie y pegue la clave privada JSON que descargó en los pasos anteriores.
-.. Seleccione *Aplicar credenciales*.
-.. Seleccione el nombre de su proyecto de Google Cloud.
-.. Seleccione la región donde desea crear el sistema.  La región debe ser una de las regiones compatibles con Google Cloud NetApp Volumes.
+.. Pegue la dirección de correo electrónico de la cuenta de servicio de Google asociada: credentials-sa@wf-production-netapp.iam.gserviceaccount.com.
+.. Seleccione *Aplicar credenciales* para recuperar el nombre del proyecto y la región.
+.. En *Nombre del proyecto*, seleccione el nombre de su proyecto de Google Cloud.
+.. En *Región*, seleccione la región donde desea crear el sistema. La región debe ser una de las regiones compatibles con Google Cloud NetApp Volumes.
 .. Seleccione *Descubrir*.
 
 

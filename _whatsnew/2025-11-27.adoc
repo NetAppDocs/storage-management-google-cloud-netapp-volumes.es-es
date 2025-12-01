@@ -1,0 +1,11 @@
+= Cambios en las credenciales de Google Cloud Platform
+:allow-uri-read: 
+
+
+
+
+=== Cambios en las credenciales de Google Cloud Platform
+
+A medida que los clientes configuran y autorizan más sistemas Google Cloud NetApp Volumes , la forma en que se administran las credenciales ha cambiado.
+
+Las credenciales de los sistemas NetApp Volumes ahora se almacenan en un backend de Google Cloud, como el servicio Cloud Key Management o similar, y las credenciales de suplantación de cuenta de servicio se utilizan al crear un nuevo sistema.
