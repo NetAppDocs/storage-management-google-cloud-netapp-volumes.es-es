@@ -35,7 +35,7 @@ Debe tener la siguiente información disponible al agregar una suscripción para
 . Proporcione información sobre su suscripción a NetApp Volumes:
 +
 .. Introduzca el nombre del sistema que desea utilizar.
-.. Pegue la dirección de correo electrónico de la cuenta de servicio de Google asociada: credentials-sa@wf-production-netapp.iam.gserviceaccount.com.
+.. Pegue la dirección de correo electrónico de la cuenta de servicio de Google asociada. Para más detalles, consultelink:task-set-up-gcnv.html["Configurar una cuenta de servicio"] .
 .. Seleccione *Aplicar credenciales* para recuperar el nombre del proyecto y la región.
 .. En *Nombre del proyecto*, seleccione el nombre de su proyecto de Google Cloud.
 .. En *Región*, seleccione la región donde desea crear el sistema. La región debe ser una de las regiones compatibles con Google Cloud NetApp Volumes.
