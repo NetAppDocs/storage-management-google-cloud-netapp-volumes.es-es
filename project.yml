@@ -29,13 +29,13 @@ sidebar:
     - title: Asignar roles de Google Cloud NetApp Volumes
       url: "/task-add-roles.html"
     - title: Agregar un sistema
-      url: "/task-create-working-env.html"
+      url: "/task-create-system.html"
   - title: Utilice Google Cloud NetApp Volumes
     entries:
     - title: Administrar volúmenes
       url: "/task-manage-volumes.html"
     - title: Eliminar volúmenes
-      url: "/task-remove-working-env.html"
+      url: "/task-remove-system.html"
   - title: Conocimiento y apoyo
     entries:
     - title: Regístrese para recibir asistencia
