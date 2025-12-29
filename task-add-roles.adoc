@@ -46,4 +46,4 @@ Si selecciona una carpeta, el miembro tendrá permisos sobre todo lo que resida 
 
 
 .¿Que sigue?
-link:task-create-working-env.html["Agregar un sistema de Google Cloud NetApp Volumes"].
+link:task-create-system.html["Agregar un sistema de Google Cloud NetApp Volumes"].

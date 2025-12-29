@@ -2,50 +2,7 @@
 permalink: task-create-working-env.html 
 redirect: storage-management-google-cloud-netapp-volumes/task-create-system.html 
 ---
-= Agregar un sistema de Google Cloud NetApp Volumes
-:hardbreaks:
+= 
 :allow-uri-read: 
-:nofooter: 
-:icons: font
-:linkattrs: 
-:imagesdir: ./media/
 
 
-[role="lead"]
-Después de configurar una cuenta de servicio, agregue un sistema Google Cloud NetApp Volumes en la NetApp Console para poder ver sus instancias de Google Cloud NetApp Volumes .
-
-Los volúmenes de nube para esta suscripción se muestran en el sistema.
-
-
-NOTE: Si tiene suscripciones y volúmenes en varios proyectos de Google Cloud, deberá realizar esta tarea para cada proyecto.
-
-.Antes de empezar
-Debe tener la siguiente información disponible al agregar una suscripción para cada proyecto:
-
-* Dirección de correo electrónico de la cuenta de servicio de Google
-* Nombre del proyecto
-
-
-.Pasos
-. Desde el menú de la NetApp Console , seleccione *Almacenamiento* y luego *Administración*.
-. En la página Sistemas, seleccione *Agregar sistema* y seleccione *Google Cloud Platform*.
-. Junto a * Google Cloud NetApp Volumes*, seleccione *Descubrir*.
-. Proporcione información sobre su suscripción a NetApp Volumes:
-+
-.. Introduzca el nombre del sistema que desea utilizar.
-.. Pegue la dirección de correo electrónico de la cuenta de servicio de Google asociada. Para más detalles, consultelink:task-set-up-gcnv.html["Configurar una cuenta de servicio"] .
-.. Seleccione *Aplicar credenciales* para recuperar el nombre del proyecto y la región.
-.. En *Nombre del proyecto*, seleccione el nombre de su proyecto de Google Cloud.
-.. En *Región*, seleccione la región donde desea crear el sistema. La región debe ser una de las regiones compatibles con Google Cloud NetApp Volumes.
-.. Seleccione *Descubrir*.
-
-
-
-
-.Resultado
-La consola muestra su sistema Google Cloud NetApp Volumes .
-
-image:screenshot_gcnv_environment.png["Una captura de pantalla del sistema Google Cloud NetApp Volumes Service."]
-
-.¿Que sigue?
-link:task-manage-volumes.html["Ver sus volúmenes"] .
