@@ -16,7 +16,10 @@ summary: La NetApp Console necesita acceso a la API de Google Cloud NetApp Volum
 [role="lead"]
 La NetApp Console necesita los permisos adecuados a través de una cuenta de servicio de Google Cloud.
 
-Complete las siguientes tareas para que la NetApp Console pueda acceder a su proyecto de Google Cloud.
+Completa las siguientes tareas para que NetApp Console pueda acceder a tu proyecto de Google Cloud.
+
+
+NOTE: Puedes utilizar la consola de Google Cloud o la CLI de gcloud para estas tareas. Para utilizar la CLI de gcloud, debes tener link:https://cloud.google.com/sdk/docs/install-sdk["instalaste la CLI de Google Cloud"^] primero.
 
 * Si aún no tiene una cuenta de servicio existente, cree una nueva.
 * Conceder acceso para suplantación de identidad.
@@ -39,10 +42,26 @@ Google Cloud Console genera un ID de cuenta de servicio basado en este nombre.  
 .. Haga clic en *Crear y continuar*.
 .. En la lista de roles, seleccione el rol de *administrador de Google Cloud NetApp Volumes * o *visor de Google Cloud NetApp *.
 .. Seleccione *Continuar*.
++
+Alternativamente, puedes asignar el rol usando la CLI de gcloud:
+
++
+[source, cli]
+----
+gcloud projects add-iam-policy-binding <YOUR_PROJECT_ID> --member="serviceAccount:<YOUR_SA_EMAIL>" --role="roles/netapp.admin"
+----
 .. Otorgar acceso de suplantación a esta cuenta de servicio: credentials-sa@wf-production-netapp.iam.gserviceaccount.com. Para más detalles, consulte https://cloud.google.com/iam/docs/create-short-lived-credentials-direct#sa-credentials-jwt["Crear un token web JSON autofirmado (JWT)"^] .
 +
 La cuenta de servicio propiedad de NetApp se utiliza para solicitar un token de acceso de corta duración que le permite actuar como esa cuenta de servicio sin necesidad de acceder a su clave privada.
 
++
+Alternativamente, puedes conceder acceso de suplantación utilizando la CLI de gcloud:
+
++
+[source, cli]
+----
+gcloud iam service-accounts add-iam-policy-binding <YOUR_SA_EMAIL> --member="serviceAccount:credentials-sa@wf-production-netapp.iam.gserviceaccount.com" --role="roles/iam.serviceAccountTokenCreator" --project=<YOUR_PROJECT_ID>
+----
 .. Haga clic en *HECHO* en la parte inferior de la página y continúe con el siguiente paso.
 
 
@@ -59,6 +78,14 @@ En cada proyecto de GCP adicional que utilizará la cuenta de servicio, haga lo 
 . En el campo Nuevos directores, ingrese la dirección de correo electrónico de su cuenta de servicio.
 . En el menú desplegable Seleccionar un rol, elija el rol *Administrador de Google Cloud NetApp Volumes *.
 . Haga clic en *Guardar*.
++
+Alternativamente, puedes agregar la vinculación de la política IAM usando la CLI de gcloud:
+
++
+[source, cli]
+----
+gcloud projects add-iam-policy-binding <SHARED_VPC_HOST_PROJECT_ID> --member="serviceAccount:<YOUR_SA_EMAIL>" --role="roles/netapp.admin"
+----
 
 
 Para conocer los pasos detallados, consulte la documentación de Google Cloud:
