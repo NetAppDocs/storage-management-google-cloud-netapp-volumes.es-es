@@ -30,6 +30,9 @@ NOTE: Puedes utilizar la consola de Google Cloud o la CLI de gcloud para estas t
 
 == Configurar una cuenta de servicio
 
+
+NOTE: Los cambios en los permisos de los proyectos de Google Cloud pueden tardar un par de minutos en surtir efecto.
+
 . En la consola de Google Cloud, https://console.cloud.google.com/iam-admin/serviceaccounts["Vaya a la página de Cuentas de servicio"^] .
 . Haga clic en *Seleccionar un proyecto*, elija su proyecto y haga clic en *Abrir*.
 . Para crear una cuenta de servicio, haga lo siguiente:
@@ -40,7 +43,7 @@ NOTE: Puedes utilizar la consola de Google Cloud o la CLI de gcloud para estas t
 Google Cloud Console genera un ID de cuenta de servicio basado en este nombre.  Edite la ID si es necesario: no podrá cambiarla más tarde.
 
 .. Haga clic en *Crear y continuar*.
-.. En la lista de roles, seleccione el rol de *administrador de Google Cloud NetApp Volumes * o *visor de Google Cloud NetApp *.
+.. En la lista de roles, selecciona el rol *Google Cloud NetApp Volumes Admin* o *Google Cloud NetApp Volumes Viewer*.
 .. Seleccione *Continuar*.
 +
 Alternativamente, puedes asignar el rol usando la CLI de gcloud:
@@ -62,6 +65,10 @@ Alternativamente, puedes conceder acceso de suplantación utilizando la CLI de g
 ----
 gcloud iam service-accounts add-iam-policy-binding <YOUR_SA_EMAIL> --member="serviceAccount:credentials-sa@wf-production-netapp.iam.gserviceaccount.com" --role="roles/iam.serviceAccountTokenCreator" --project=<YOUR_PROJECT_ID>
 ----
++
+
+NOTE: Para entornos de ensayo, usa `credentials-sa@wf-staging-netapp.iam.gserviceaccount.com` en lugar de la cuenta de servicio de producción. Reemplaza el valor del parámetro `--member` en el comando anterior por `serviceAccount:credentials-sa@wf-staging-netapp.iam.gserviceaccount.com`.
+
 .. Haga clic en *HECHO* en la parte inferior de la página y continúe con el siguiente paso.
 
 
@@ -71,7 +78,7 @@ gcloud iam service-accounts add-iam-policy-binding <YOUR_SA_EMAIL> --member="ser
 
 == VPC compartida
 
-En cada proyecto de GCP adicional que utilizará la cuenta de servicio, haga lo siguiente:
+En cada proyecto adicional de Google Cloud que vaya a utilizar la cuenta de servicio, haz lo siguiente:
 
 . En la página _IAM_, seleccione el proyecto de host de VPC compartida en el menú desplegable del proyecto.
 . Haga clic en *Agregar director*.
