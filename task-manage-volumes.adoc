@@ -20,6 +20,7 @@ Puede ver sus volúmenes existentes y cualquier acción que haya realizado en el
 
 
 
+[[view-a-volume]]
 == Ver un volumen
 
 Vea los detalles de sus volúmenes, como su nombre, cantidad, región, capacidad, capacidad utilizada y grupo de almacenamiento.
@@ -32,6 +33,7 @@ Vea los detalles de sus volúmenes, como su nombre, cantidad, región, capacidad
 
 
 
+[[view-the-audit-log]]
 == Ver el registro de auditoría
 
 Puede ver todas las acciones realizadas en los volúmenes en la línea de tiempo.

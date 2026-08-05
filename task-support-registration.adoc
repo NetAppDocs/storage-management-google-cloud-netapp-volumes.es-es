@@ -22,6 +22,7 @@ Registrarse para recibir soporte no habilita el soporte de NetApp para un servic
 
 
 
+[[support-registration-overview]]
 == Descripción general del registro de soporte
 
 Existen dos formas de registro para activar el derecho a recibir ayuda:
@@ -40,12 +41,14 @@ El registro de ambos tipos de números de serie permite funciones como la apertu
 
 
 
+[[register-netapp-console-for-netapp-support]]
 == Registrar la NetApp Console para obtener soporte de NetApp
 
 Para registrarse para recibir soporte y activar el derecho a soporte, un usuario de su cuenta de NetApp Console debe asociar una cuenta del sitio de soporte de NetApp con su inicio de sesión de consola. La forma de registrarse para el soporte de NetApp depende de si ya tiene una cuenta del sitio de soporte de NetApp (NSS).
 
 
 
+[[existing-customer-with-an-nss-account]]
 === Cliente existente con una cuenta NSS
 
 Si es cliente de NetApp con una cuenta NSS, simplemente necesita registrarse para recibir soporte a través de la consola.
@@ -65,6 +68,7 @@ Tenga en cuenta que otros usuarios de la consola no verán este mismo estado de 
 
 
 
+[[existing-customer-but-no-nss-account]]
 === Soy cliente actual pero no tengo cuenta NSS
 
 Si es un cliente existente de NetApp con licencias y números de serie existentes pero _no_ una cuenta NSS, debe crear una cuenta NSS y asociarla con su inicio de sesión de la consola.
@@ -81,6 +85,7 @@ Si es un cliente existente de NetApp con licencias y números de serie existente
 
 
 
+[[brand-new-to-netapp]]
 === Completamente nuevo en NetApp
 
 Si es nuevo en NetApp y no tiene una cuenta NSS, siga cada paso a continuación.
@@ -117,6 +122,7 @@ Una vez que tenga su cuenta del sitio de soporte de NetApp , asocie la cuenta co
 
 
 
+[[associate-nss-credentials-for-cloud-volumes-ontap-support]]
 == Asociar credenciales NSS para la compatibilidad con Cloud Volumes ONTAP
 
 Es necesario asociar las credenciales del sitio de soporte de NetApp con su cuenta de consola para habilitar los siguientes flujos de trabajo clave para Cloud Volumes ONTAP:

@@ -18,6 +18,7 @@ Debe asignar los roles correctos a los miembros en la NetApp Console para comenz
 
 
 
+[[assign-roles-to-the-service-account-member]]
 == Asignar roles al miembro de la cuenta de servicio
 
 . Iniciar sesión en el https://docs.netapp.com/us-en/console-setup-admin/task-logging-in.html["NetApp Console"^] .
