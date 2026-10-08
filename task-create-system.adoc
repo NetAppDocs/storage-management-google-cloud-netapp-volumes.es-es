@@ -22,10 +22,10 @@ Los volúmenes de nube para esta suscripción se muestran en el sistema.
 NOTE: Si tiene suscripciones y volúmenes en varios proyectos de Google Cloud, deberá realizar esta tarea para cada proyecto.
 
 .Antes de empezar
-Debe tener la siguiente información disponible al agregar una suscripción para cada proyecto:
+Antes de añadir un sistema para cada proyecto, asegúrate de que:
 
-* Dirección de correo electrónico de la cuenta de servicio de Google
-* Nombre del proyecto
+* La cuenta de servicio de Google Cloud está configurada y sus credenciales están disponibles en la NetApp Console. Para obtener más información, consulta link:task-set-up-gcnv.html["Configurar Google Cloud NetApp Volumes"].
+* Tienes el rol de administrador o visor de Google Cloud NetApp Volumes en NetApp Console. Para obtener más detalles, consulta link:task-add-roles.html["Asignar roles de Google Cloud NetApp Volumes"].
 
 
 .Pasos
@@ -35,10 +35,11 @@ Debe tener la siguiente información disponible al agregar una suscripción para
 . Proporcione información sobre su suscripción a NetApp Volumes:
 +
 .. Introduzca el nombre del sistema que desea utilizar.
-.. Pegue la dirección de correo electrónico de la cuenta de servicio de Google asociada. Para más detalles, consultelink:task-set-up-gcnv.html["Configurar una cuenta de servicio"] .
-.. Seleccione *Aplicar credenciales* para recuperar el nombre del proyecto y la región.
-.. En *Nombre del proyecto*, seleccione el nombre de su proyecto de Google Cloud.
-.. En *Región*, seleccione la región donde desea crear el sistema. La región debe ser una de las regiones compatibles con Google Cloud NetApp Volumes.
+.. En *Credenciales*, selecciona las credenciales de Google Cloud NetApp Volumes que desees utilizar.
++
+Si no aparece ninguna credencial, añade las credenciales de Google Cloud NetApp Volumes antes de continuar. La selección del proyecto y la región no estarán disponibles hasta que haya credenciales.
+
+.. En «*Region*», selecciona una región compatible para Google Cloud NetApp Volumes.
 .. Seleccione *Descubrir*.
 
 

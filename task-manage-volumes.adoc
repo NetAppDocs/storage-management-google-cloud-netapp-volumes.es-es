@@ -4,7 +4,7 @@ permalink: task-manage-volumes.html
 keywords: google cloud netapp volumes, view volumes 
 summary: Después de configurar su sistema, podrá ver sus volúmenes de Google Cloud NetApp . 
 ---
-= Administrar volúmenes existentes
+= Gestionar volúmenes en Google Cloud NetApp Volumes
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
